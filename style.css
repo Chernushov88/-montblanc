@@ -1,0 +1,431 @@
+﻿@charset "utf-8";
+
+@import url(css/media.css);
+@import url(css/reset.css);
+/* ----------------------------Блок присоединения шрифтов--------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+font-family: 'AzoSans-Medium';
+src: url('fonts/AzoSans/AzoSans-Medium.eot');
+src: url('fonts/AzoSans/AzoSans-Medium.eot?#iefix') format('embedded-opentype'),
+ url('fonts/AzoSans/AzoSans-Medium.woff') format('woff'),
+ url('fonts/AzoSans/AzoSans-Medium.ttf') format('truetype'),
+ url('fonts/AzoSans/AzoSans-Medium.svg#fonts/AzoSans/AzoSans-Medium') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'PalatinoLinotype';
+src: url('fonts/PalatinoLinotype/PalatinoLinotype.eot');
+src: url('fonts/PalatinoLinotype/PalatinoLinotype.eot?#iefix') format('embedded-opentype'),
+ url('fonts/PalatinoLinotype/PalatinoLinotype.woff') format('woff'),
+ url('fonts/PalatinoLinotype/PalatinoLinotype.ttf') format('truetype'),
+ url('fonts/PalatinoLinotype/PalatinoLinotype.svg#fonts/PalatinoLinotype/PalatinoLinotype') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Times_New_Roman';
+src: url('fonts/Times_New_Roman/Times_New_Roman.eot');
+src: url('fonts/Times_New_Roman/Times_New_Roman.eot?#iefix') format('embedded-opentype'),
+ url('fonts/Times_New_Roman/Times_New_Roman.woff') format('woff'),
+ url('fonts/Times_New_Roman/Times_New_Roman.ttf') format('truetype'),
+ url('fonts/Times_New_Roman/Times_New_Roman.svg#fonts/Times_New_Roman/Times_New_Roman') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+/* ------------------------------ Конец блока присоединения шрифтов ------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  TYPOGRAPHY
+/*-----------------------------------------------------------------------------------*/
+body{
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #111;
+}
+a{
+	text-decoration: none;
+}
+li a:hover{
+	text-decoration: underline;
+	color: #bfac61;
+}
+.clear{
+	clear: both;
+}
+/* ------------------------------  Start header ------------------------------ */
+header{
+	width: 100%;
+	background: #111;
+}
+.header-inner{
+	min-height: 60px;
+	max-width: 1280px;	
+	margin: 0 auto;
+    padding: 12px 0 0 0;
+	font-size: 12.26px;
+	outline: 0px solid #ff0000;
+}
+.header-inner a{
+	color: #fff;
+}
+.logo-text{
+	padding: 10px 39px 19px 0;
+	font-family: 'AzoSans-Medium';
+	font-size: 20px;	
+	letter-spacing: 1px;
+	float: left;
+}
+/* nav-header-left */
+.toggleMenu{
+	display: none;
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 20px;
+	background: url(images/header/menu-left.png) no-repeat;
+	float: left;
+}
+.nav-header-left{
+    letter-spacing: 0.3px;
+	float: left;
+}
+.nav-header-left > li{
+	position: relative;
+	float: left;
+}
+.nav-header-left > li > a{
+	display: block;
+    padding: 13px 26px 23px 19px;
+	text-transform: uppercase;
+	word-spacing: 1px;
+}
+/*.nav-header-left > li:last-child a:after{
+	display: none;
+}*/
+.nav-header-left > li > span{
+	position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 11px;
+    height: 6px;
+    background: url(images/header/nav-header-left-after.png) no-repeat;
+}
+.nav-header-left > li:hover > a{
+	text-decoration: none;
+	background: #fff;
+	color: #111;
+}
+.nav-header-left > li:last-child:hover > a{
+	text-decoration: none;
+	background: none;
+	color: #fff;
+}
+
+/* block-nav */
+.block-nav{
+	display: none;
+	position: absolute;
+	top: 37px;
+	left: -50px;	
+	padding: 0px 0 45px 57px;	
+	background: #fff;
+	border: 1px solid #cfcfcf;
+    border-top: none;	
+	z-index: 100;
+}
+.first-block-nav{
+width: 700px;
+left: -153px;
+}
+.nav-header-left > li:hover > ul{
+	display: block;
+}
+.block-nav > li > ul > a{
+	padding-bottom: 10px;
+	font-family: 'Times_New_Roman';
+	font-size: 18px;
+	color: #111;
+}
+.block-nav a{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	color: #111;
+}
+.block-nav > li{
+    width: 212px;
+	padding-top: 20px;
+	float: left;	
+}
+.block-nav > li > ul{
+    padding-top: 17px;
+}
+/* nav-header-right */
+.nav-header-right{
+    width: 567px;
+	padding-top: 3px;
+	float: right;
+}
+.nav-header-right > li{
+	padding: 5px 20px 0 0px;
+	float: left;
+}
+.nav-header-right > li > a{
+	position: relative;
+	display: block;
+	padding: 5px 10px 0 28px;
+	letter-spacing: -0.5px;
+}
+li.nav-phone a{
+    padding: 5px 6px 0 24px;
+    letter-spacing: 0.5px;
+}
+.nav-phone a:before{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+    content: "";
+    width: 8px;
+    height: 18px;
+    background: url(images/header/nav-phone-bg.png) no-repeat;
+}
+.favorites a:before{
+	position: absolute;
+	left: 0px;
+	top: -1px;
+    content: "";
+    width: 22px;
+    height: 21px;
+    background: url(images/header/favorites-bg.png) no-repeat;
+}
+.card a:before{
+	position: absolute;
+	left: 5px;
+	top: 0px;
+    content: "";
+    width: 13px;
+    height: 21px;
+    background: url(images/header/card-bg.png) no-repeat;
+}
+.form-search{
+	position: relative;
+	float: right;
+}
+.form-search input[type=text]{
+	width: 162px;
+	height: 28px;
+	padding: 0 20px 0 12px;
+	border: 1px solid #c3c3c3;
+}
+.form-search input[type=submit]{	
+	position: absolute;
+	top: 6px;
+	right: 2px;
+	width: 19px;
+	height: 17px;
+	background: #fff url(images/header/form-search-submit.png) no-repeat;
+	border: none;
+}
+.form-search ::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+.form-search :-moz-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+.form-search ::-moz-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+.form-search :-ms-input-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+
+/* ------------------------------  Stop header ------------------------------ */
+/* ------------------------------  Start page-title-map ------------------------------ */
+.page-title-map{	
+	max-width: 1280px;
+	margin: 0 auto;
+	outline: 0px solid #ff0000;
+}
+.page-title-map ul{
+	overflow: hidden;
+}
+.page-title-map li{
+	float: left;
+}
+.page-title-map li:first-child a{
+	padding-left: 0;
+}
+.page-title-map li:last-child a:after{
+	display: none;
+}
+.page-title-map a{
+	position: relative;
+	display: block;
+    padding: 23px 15px 24px 11px;
+	color: #111;
+}
+.page-title-map a:after {
+    content: '\203A'; /* выведет › */
+    position: absolute;
+    right: 0px;
+    top: 21px;
+    display: block;
+    font-size: 16px;
+}
+.page-title-map a.active-post{
+	color: #7c7b7b;
+}
+
+/* ------------------------------  Stop page-title-map ------------------------------ */
+/* ------------------------------  Start content ------------------------------ */
+.content{
+	width: 100%;
+}
+.content-inner{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-bottom: 87px;
+	outline: 0px solid #00cf00;
+}
+.content-inner h2{
+	padding: 3px 0 15px 0;
+    letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Times_New_Roman';
+	font-size: 30.22px;
+}
+/* content-inner-text */
+.content-inner-text{
+	overflow: hidden;
+	padding-bottom: 22px;
+}
+.logo{
+	float: left;
+}
+.content-inner-text p{
+	width: 80%;
+    padding: 17px 102px 0 0;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0.3px;
+    float: right;
+}
+/* ci-desc */
+.ci-desc{
+	overflow: hidden;
+	padding: 34px 0 0 0;
+}
+.roughSkin{
+    padding-bottom: 18px;
+}
+.fineLeather{
+	    padding-bottom: 3px;
+}
+.accessories{
+	padding-bottom: 19px;
+}
+.ci-desc h3{
+	padding-bottom: 37px;
+	text-transform: uppercase;
+	font-family: 'PalatinoLinotype';
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+    letter-spacing: 0.8px;
+}
+.roughSkin h3{
+	padding-bottom: 18px;
+}
+.fineLeather h3{
+	padding-bottom: 25px;
+}
+.accessories h3{
+	padding-bottom: 30px;
+}
+.consumables h3{
+    padding-bottom: 30px;
+}
+.ci-desc li{
+	width: 16.66%;
+	float: left;
+}
+.ci-desc li > a{
+	display: block;
+}
+.ci-desc li > a > div{
+	min-height: 175px;
+}
+.ci-desc li > a > div > img{
+    display: block;
+	margin: 0 auto;
+}
+.ci-desc li > a > span{
+	display: block;
+	padding: 18px 16px 20px 0;    
+    line-height: 17px;
+	text-align: center;
+	text-transform: uppercase;
+    color: #111;
+    letter-spacing: .4px;
+}
+.fineLeather li > a > span{
+	padding: 4px 16px 34px 0;
+}
+.accessories li > a > span{
+    padding-top: 14px;
+}
+.consumables li > a > span{
+	padding-top: 21px ;
+}
+.ci-desc li > a > span:hover{
+	color: #bfac61;
+}
+/* ------------------------------  Stop content ------------------------------ */
+/* ------------------------------  Start footer ------------------------------ */
+footer{
+	width: 100%;
+	background: #111;
+}
+.footer-inner{
+	overflow: hidden;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 25px 35px;
+	outline: 0px solid #ff0000;
+}
+.footer-nav{	
+	float: left;
+}
+.fn-1{
+	width: 27%;
+}
+.fn-2{
+	width: 30%;
+}
+.fn-3{
+	width: 25%;
+}
+.fn-4{
+	width: 18%;
+}
+.footer-nav h4{
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-nav a, .footer-nav span{
+	display: inline-block;
+	line-height: 20px;
+	color: #fff;
+}
+/* ------------------------------  Stop footer ------------------------------ */
+

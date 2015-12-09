@@ -1,0 +1,125 @@
+﻿@media (min-width:768px) and (max-width:1279px){ 
+	div.header-inner {min-height: 90px; padding: 15px 10px 0 10px; font-size: 12px;}
+	h1.logo-text {padding: 10px 39px 10px 0; float: none;}
+	.nav-header-left > li:nth-child(2) > a {margin-left: -5px;}
+	.nav-header-left li:last-child a {padding-right: 0;}
+	nav.nav-header-left li a {padding: 6px 28px 13px 6px;}
+	nav.nav-header-left > li > span {right: 13px; top: 8px;}
+	ul.block-nav {top: 24px;}
+	ul.first-block-nav {left: -10px;}
+
+	nav.nav-header-right li {padding: 5px 0 0 0px;}
+	nav.nav-header-right {width: auto;}
+	form.form-search {position: absolute; top: 50px; right: 15px; width: 162px; padding-left: 0; float: none;}
+	/* page-title-map */
+	div.page-title-map {padding-left: 10px;}
+	/* content-inner */
+	.content-inner {padding: 0 10px 87px 10px;}
+	div.content-inner-text p {width: 72%; padding: 17px 0px 0 0;}
+	.roughSkin li{min-height: 300px;}
+	/* footer */
+	nav.fn-3 {width: 23%;}
+	nav.fn-4 {width: 20%;}
+
+
+
+ 
+}
+/*-----------------------------------------------------------------------------------*/
+/*  ci-desc
+/*-----------------------------------------------------------------------------------*/
+
+@media (min-width:768px) and (max-width:1180px){ 
+	ul.ci-desc li {width: 25%;}
+	.ci-desc li > a > div > img {width: 80%;}
+ 
+}
+@media (min-width:640px) and (max-width:767px){ 
+	ul.ci-desc li {width: 33%;}
+	.ci-desc li > a > div > img {width: 70%;}
+ 
+}
+@media (min-width:380px) and (max-width:639px){ 
+	ul.ci-desc li {width: 50%;}
+	.ci-desc li > a > div > img {width: 65%;}
+ 
+}
+@media (min-width:100px) and (max-width:379px){ 
+	ul.ci-desc li {width: 100%;}
+	.ci-desc li > a > div > img {width: 60%;}
+ 
+}
+
+/*----------------------------------------------*/
+
+
+@media (min-width:100px) and (max-width:767px){ 
+	/*.nav-header-left{display: none;}*/
+	a.toggleMenu{display: block;}
+	div.header-inner {min-height: 90px; font-size: 12px;}
+	.nav-header-left {position: absolute; top: 46px; padding: 0 10px; z-index: 100; width: 100%; background: #ccc;}
+	h1.logo-text {float: none;}
+	nav.nav-header-left > li {width: 100%; float: none;}
+	nav.nav-header-left > li > a {width: 90%; padding-bottom: 0; float: left;}
+	nav.nav-header-left > li:hover > ul {display: none;}
+	nav.nav-header-left > li:hover > a {background: none;}
+	nav.nav-header-left > li:hover > a {color: #fff;}
+	nav.nav-header-left > li > span {position: static; display: block; width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat; background-position: 0 -360px; float: right;}
+	nav.nav-header-left > li.hover > span {background-position: -40px -360px;}
+	/*nav.nav-header-left > li > span:hover {width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat;background-position: -40px -360px;}
+	nav.nav-header-left > li.hover > span:hover {width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat;background-position: 0px -360px;}
+	*/ul.block-nav {background: none; left: -9999px !important; padding: 0;}
+	ul.first-block-nav {width: 100%;}
+	ul.block-nav > li {width: 100%;}
+	.nav > li.hover > ul, .nav li ul li.hover ul { position: static;}
+	ul.block-nav > li > ul{position: absolute;  left: -9999px ; padding: 0;}
+	.nav-header-left > li > ul > span {position: static; display: block; width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat; background-position: 0 -360px; float: right;}
+	.nav-header-left > li > ul > li > a {display: block; width: 90%; /*padding-left: 30px;*/ float: left;}
+	/*.nav li ul li.hover ul {padding-left: 30px;}*/
+	.block-nav > li >span{display: block; width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat; background-position: 0 -360px; float: right;}
+	.block-nav > li.hover >span{display: block; width: 40px; height: 40px; background: url(../images/sprite.png) no-repeat; background-position: -40px -360px; float: right;}
+
+
+	nav.nav-header-right {width: 233px; margin-right: 10px;}
+	nav.nav-header-right > li {padding: 5px 0 10px 22px;}
+	nav.nav-header-right > li > a {padding: 5px;}
+	nav.nav-header-right > li.nav-phone a {padding: 5px 6px 0 24px;}
+	.nav-header-right > li > a > span {display: none;}
+	.block-nav {position: absolute; left: -9999px; display: block !important;}
+
+
+
+
+ 
+}
+
+
+/*----------------------------------------------*/
+
+
+@media (min-width:500px) and (max-width:767px) { 
+	.header-inner nav.nav-header-right {width: 400px;}
+	nav.nav-header-right > li.nav-phone {padding-left: 0;}
+
+}
+
+
+/*----------------------------------------------*/
+
+
+@media (min-width:768px) and (max-width:4000px) { 
+
+ .nav-header-left > li:hover > span{
+	background: url(../images/header/nav-header-left-after-active.png) no-repeat;
+}
+
+}
+
+
+
+
+
+
+
+
+
