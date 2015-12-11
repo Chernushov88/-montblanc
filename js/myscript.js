@@ -2,7 +2,6 @@
 /*	RESPONSIVE MENU
 /*-----------------------------------------------------------------------------------*/
 
-
 var ww = document.body.clientWidth;
 
 $(document).ready(function() {
@@ -40,16 +39,16 @@ var adjustMenu = function() {
 			$(this).parent("li").toggleClass("hover");
 		});
 	} 
-	// else if (ww >= 768) {
-	// 	$(".toggleMenu").css("display", "none");
-	// 	$(".nav").show();
-	// 	$(".nav li").removeClass("hover");
-	// 	$(".nav li a").unbind('click');
-	// 	$(".nav li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
-	// 	 	// must be attached to li so that mouseleave is not triggered when hover over submenu
-	// 	 	$(this).toggleClass('hover');
-	// 	});
-	// }
+	else if (ww >= 768) {
+		$(".toggleMenu").css("display", "none");
+		$(".nav").show();
+		$(".nav li").removeClass("hover");
+		$(".nav li span").unbind('click');
+		$(".nav li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
+		 	// must be attached to li so that mouseleave is not triggered when hover over submenu
+		 	$(this).toggleClass('hover');
+		});
+	}
 }
 
 

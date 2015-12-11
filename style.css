@@ -1,7 +1,7 @@
-﻿@charset "utf-8";
+﻿@charset "utf-8"; 
 
 @import url(css/media.css);
-@import url(css/reset.css);
+@import url(css/reset.css); 
 /* ----------------------------Блок присоединения шрифтов--------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @font-face {
@@ -292,7 +292,7 @@ li.nav-phone a{
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-bottom: 87px;
-	outline: 0px solid #00cf00;
+	outline: 1px solid #00cf00;
 }
 .content-inner h2{
 	padding: 3px 0 15px 0;
@@ -428,4 +428,163 @@ footer{
 	color: #fff;
 }
 /* ------------------------------  Stop footer ------------------------------ */
-
+/*-----------------------------------------------------------------------------------*/
+/*  CATALOG
+/*-----------------------------------------------------------------------------------*/
+/* selected-block */
+.select-block{
+	padding: 54px 0 0px 0;
+}
+.select-block > ul{
+	overflow: hidden;
+}
+.select-block > ul > li{
+    padding: 0 15px 52px 0;
+	float: left;
+} 
+.select-block > ul > li:last-child{
+	float: right;
+    width: 221px;
+    font-size: 13px;
+}
+.select-block > ul > li:last-child h4{
+	padding: 24px 0 5px 28px;
+    font-size: 13px;
+    color: #7c7b7b;
+	text-transform: none;
+}
+.select-block> ul > li > h4{
+	padding-bottom: 11px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #c6c6c6;
+}
+.select-block > ul > li > div a:after{
+    position: absolute;
+    top: 14px;
+    right: 7px;
+	content: '';
+	width: 10px;
+	height: 6px;
+	background: #fff url(images/page-catalog/slct-after-bg.png) no-repeat;
+}
+.select-block > ul > li:last-child a:after{ 
+	top: 5px;
+    right: 7px;
+}
+.select-block > ul > li > div a.active:after{
+	background: #fff url(images/page-catalog/slct-after-bg-active.png) no-repeat;
+}
+.select-block li a:hover {
+	text-decoration: none;
+    color: #111;
+}
+/* ci-catalog */
+.ci-catalog{
+	padding: 40px 0 60px 0;
+}
+.ci-catalog:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.ci-catalog li{
+	position: relative;
+	width: 25%;
+    min-height: 382px;
+	padding: 15px 0 28px 0;
+	float: left;
+}
+.ci-catalog li:hover{
+	
+}
+.ci-catalog li:hover > .catalog-block{
+	display: block;
+}
+.ci-catalog li:hover .catalog-block-a{
+	position: absolute;
+    left: 0;
+    z-index: 100;
+    display: block;
+    width: 91.5%;
+    height: 102px;
+    padding-top: 14px;
+    background: #fff;
+}
+.catalog-block{
+	display: none;
+	position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 92%;
+    min-height: 464px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.4);
+}
+.ci-catalog li > a > div{
+	min-height: 175px;
+}
+.ci-catalog li > a > div > img{
+    display: block;
+    width: 85%;
+	margin: 0 auto;
+}
+.ci-catalog li > a > span{
+	display: block;
+	padding: 17px 13px 10px 0;
+    line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+    color: #111;
+    letter-spacing: .4px;
+}
+.ci-catalog li > a > span:hover{
+	color: #bfac61;
+}
+.artc{
+    display: block;
+	text-align: right;
+	padding-right: 11px;
+    font-size: 11px;
+    color: #999;
+}
+.ci-catalog li:hover  .artc {
+    margin-top: -3px;
+    padding-right: 64px;
+    font-size: 14px;
+}
+li > a > span.price{
+	padding: 0 14px 0px 0;
+	font-size: 22px;
+}
+.catalog-block-a{
+	display: none;
+}
+.buy{
+	display: block;	
+	width: 202px;
+    height: 37px;
+    margin: 0 auto 6px auto;
+    padding: 12px 0 0 22px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+	background: #111 url(images/page-catalog/buy-bg.png) 64px 7px no-repeat;
+	color: #fff;
+}
+.to-favorite{
+	display: block;	
+	width: 202px;
+	height: 37px;
+	margin: 0 auto;
+    padding: 12px 0 0 34px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+	background: #999 url(images/page-catalog/to-favorite-bg.png) 46px 7px  no-repeat;
+	color: #fff;
+}
