@@ -728,3 +728,34 @@ ul.tabs__caption li a{
 /*-----------------------------------------------------------------------------------*/
 /*  FAVORITES
 /*-----------------------------------------------------------------------------------*/
+.content-inner-favorites{
+	padding-top: 35px;
+}
+.delete{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: url(images/page-favorite/delete-bg.png) no-repeat;
+	float: left;
+}
+.delete:hover{
+	opacity: 0.7;
+}
+.ci-favorites .ci-catalog li{
+	padding: 0 30px 35px 20px;
+}
+.ci-favorites .ci-catalog li:hover .artc {
+    margin-top: 0;
+    padding-right: 11px;
+    font-size: 11px;
+    float: right;
+}
+.ci-favorites li > a > span.price {
+    padding: 0 0px 13px 0;
+}
+.ci-favorites .buy {
+    width: 164px;
+    padding: 12px 0 0 21px;
+
+    background-position:  46px 8px ;
+}
