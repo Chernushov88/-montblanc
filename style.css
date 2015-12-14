@@ -137,11 +137,12 @@ header{
 	z-index: 100;
 }
 .first-block-nav{
-width: 700px;
-left: -153px;
+	width: 700px;
+	left: -153px;
 }
 .nav-header-left > li:hover > ul{
 	display: block;
+	z-index: 10000;
 }
 .block-nav > li > ul > a{
 	padding-bottom: 10px;
@@ -572,7 +573,6 @@ li > a > span.price{
     padding: 12px 0 0 22px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
 	background: #111 url(images/page-catalog/buy-bg.png) 64px 7px no-repeat;
 	color: #fff;
 }
@@ -584,7 +584,147 @@ li > a > span.price{
     padding: 12px 0 0 34px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
 	background: #999 url(images/page-catalog/to-favorite-bg.png) 46px 7px  no-repeat;
 	color: #fff;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+/* content-inner-slider */
+.content-inner-slider{
+	max-width: 570px;
+	padding: 41px 0 0 0;
+	float: left;
+}
+#bx-pager > a.active > img{
+	opacity: .5;
+}
+#bx-pager > a > img:hover{
+	opacity: .5;
+}
+/* content-inner-desc */
+.content-inner-desc{
+	width: 567px;
+    padding-top: 7px;
+	float: right;
+}
+.content-inner-desc h2{
+	line-height: 36px;
+	text-align: left;
+	letter-spacing: 0.6px;
+}
+.price-block{
+    padding: 10px 0 0 0;
+}
+.price-block .price{
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+.price-block .buy {
+    margin: 12px 0 7px 0;
+}
+.price-block .to-favorite{
+	margin: 0;
+}
+.cid-text{
+	padding-top: 28px;
+    padding-bottom: 21px;    
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: .25px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.more{
+	padding: 0 14px 0 11px;
+    letter-spacing: 0.6px;
+	text-decoration: underline;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	background: url(images/page-kartochka/more-bg.png) no-repeat center right;
+}
+.more:hover{
+	text-decoration: none;
+    color: #bfac61
+}
+.from-monblanck{
+	padding-top: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;	
+}
+.from-monblanck a{
+	display: block;
+    padding: 12px 0 12px 30px;
+    color: #000;
+    letter-spacing: 0.4px;
+}
+.from-monblanck li:first-child a{
+	background: url(images/page-kartochka/from-monblanck/1.png) no-repeat  0px center;
+}
+.from-monblanck li:nth-child(2) a{
+	background: url(images/page-kartochka/from-monblanck/2.png) no-repeat  0px center;
+}
+.from-monblanck li:last-child a{
+	background: url(images/page-kartochka/from-monblanck/3.png) no-repeat  0px center;
+}
+/* tabs */
+div.tabs {
+	min-height: 550px;
+	max-width: 1280px;
+    margin: 0 auto;
+    border: 0;
+}
+ul.tabs__caption {
+	height: 45px;
+    background: none;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+ul.tabs__caption li {
+	position: relative;
+	padding: 13px 23px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Times_New_Roman';
+	font-size: 18px;
+	border-radius: 0;
+	
+	float: left;
+}
+ul.tabs__caption li a{
+	outline: 0 !important;
+}
+.tabs__caption li.active-tab{
+	border: 1px solid #dbdbdb;
+	border-bottom: none;
+}
+.tabs__caption li.active-tab:before{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+.tabs__content {
+	width: 100%;
+	display: none;
+
+}
+.tabs__content.active-tab {
+	display: block;
+}
+/* ----- */
+.tabs__content .ci-catalog {
+    padding: 26px 0 60px 0;
+}
+#slider3{
+	width: 100%;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  FAVORITES
+/*-----------------------------------------------------------------------------------*/

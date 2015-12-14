@@ -1,4 +1,19 @@
-﻿@media (min-width:768px) and (max-width:1279px){ 
+﻿@media (min-width:1180px) and (max-width:1420px){
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	.content-inner-slider .bx-wrapper .bx-next {right: 0;}
+	.content-inner-slider .bx-wrapper .bx-prev {left: 0;}
+	.tabs .bx-wrapper .bx-next {right: 0;}
+	.tabs .bx-wrapper .bx-prev {left: 0;}
+}
+@media (min-width:1180px) and (max-width:1279px){
+	div.catalog-block {min-height: 435px;}
+}
+@media (min-width: 767px) { 
+ .nav-header-left > li:hover > span{background: url(../images/header/nav-header-left-after-active.png) no-repeat;}
+}
+@media (min-width:768px) and (max-width:1279px){ 
 	div.header-inner {min-height: 90px; padding: 15px 10px 0 10px; font-size: 12px;}
 	h1.logo-text {padding: 10px 39px 10px 0; float: none;}
 	.nav-header-left > li:nth-child(2) > a {margin-left: -5px;}
@@ -20,28 +35,9 @@
 	/* footer */
 	nav.fn-3 {width: 23%;}
 	nav.fn-4 {width: 20%;}
-/*-----------------------------------------------------------------------------------*/
-/*  CATALOG
-/*-----------------------------------------------------------------------------------*/
-	
-
 
  
 }
-@media (min-width:768px) and (max-width:783px) { 
-	nav.nav-header-left{display: block !important;}
-	.toggleMenu {display: none !important;}
-
-}
-
-
-@media (min-width:1180px) and (max-width:1279px){
-	div.catalog-block {min-height: 435px;}
-}
-/*-----------------------------------------------------------------------------------*/
-/*  ci-desc
-/*-----------------------------------------------------------------------------------*/
-
 @media (min-width:768px) and (max-width:1180px){ 
 	ul.ci-desc li {width: 25%;}
 	.ci-desc li > a > div > img {width: 80%;}
@@ -51,8 +47,29 @@
 	ul.ci-catalog li {width: 33%; min-height: 452px;}
 	div.catalog-block {min-height: 495px;}
 	.ci-catalog li:hover .catalog-block-a {bottom: -43px;}
- 
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	div.content-inner-slider {margin: 0 auto; float: none;}
+	div.content-inner-desc {width: 100%; padding-top: 20px; float: none;}
+	div.content-inner-desc h2{text-align: center;}
+	.content-inner-desc h2 br{display: none;}
+	div.price-block {width: 202px; margin: 0 auto; padding: 0;}
+	ul.from-monblanck {width: 300px; margin: 0 auto;}
+ 	.tabs .bx-wrapper .bx-next {right: 0;}
+	.tabs .bx-wrapper .bx-prev {left: 0;}
 }
+
+@media (min-width:768px) and (max-width:783px) { 
+	nav.nav-header-left{display: block !important;}
+	.toggleMenu {display: none !important;}
+
+}
+
+
+
+
+
 @media (min-width:640px) and (max-width:767px){ 
 	ul.ci-desc li {width: 33%;}
 	.ci-desc li > a > div > img {width: 70%;}
@@ -62,29 +79,6 @@
 	ul.ci-catalog li {width: 50%;min-height: 442px;}
 	div.catalog-block {min-height: 515px;}
 	.ci-catalog li:hover .catalog-block-a {bottom: -73px;}
-}
-@media (min-width:390px) and (max-width:639px){ 
-	ul.ci-desc li {width: 50%;}
-	.ci-desc li > a > div > img {width: 65%;}
-/*-----------------------------------------------------------------------------------*/
-/*  CATALOG
-/*-----------------------------------------------------------------------------------*/
-	ul.ci-catalog li {width: 82%; margin: 0 auto; float: none;}
-	div.catalog-block {min-height: 597px;}
-	.ci-catalog li:hover .catalog-block-a {bottom: -125px;}
-
-}
-@media (min-width:100px) and (max-width:389px){ 
-	ul.ci-desc li {width: 100%;}
-	.ci-desc li > a > div > img {width: 60%;}
-/*-----------------------------------------------------------------------------------*/
-/*  CATALOG
-/*-----------------------------------------------------------------------------------*/
-	ul.ci-catalog li {width: 100%;}
-	div.catalog-block {min-height: 504px;}
-	.ci-catalog li:hover .catalog-block-a {bottom: -113px;}
-
- 
 }
 /*----------------------------------------------*/
 
@@ -96,14 +90,24 @@
 	div.header-inner {min-height: 55px;}
 
 }
-@media (min-width: 767px) { 
- .nav-header-left > li:hover > span{background: url(../images/header/nav-header-left-after-active.png) no-repeat;}
-}
+@media (min-width:390px) and (max-width:639px){ 
+	ul.ci-desc li {width: 50%;}
+	.ci-desc li > a > div > img {width: 65%;}
+/*-----------------------------------------------------------------------------------*/
+/*  CATALOG
+/*-----------------------------------------------------------------------------------*/
+	ul.ci-catalog li {width: 82%; margin: 0 auto; float: none;}
+	div.catalog-block {min-height: 597px;}
+	.ci-catalog li:hover .catalog-block-a {bottom: -125px;}
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	.content-inner-slider .bx-wrapper .bx-next {right: 0;}
+	.content-inner-slider .bx-wrapper .bx-prev {left: 0;}
+	.tabs .bx-wrapper .bx-next {right: 0;}
+	.tabs .bx-wrapper .bx-prev {left: 0;}
 
-@media (min-width:100px) and (max-width:500px) { 
-	.footer-inner nav.footer-nav{width: 100%; height: auto;float: none;}
 }
-/*----------------------------------------------*/
 
 
 @media (min-width:100px) and (max-width:767px){ 
@@ -111,16 +115,16 @@
 	nav.nav a {padding: 10px 15px; color:#fff;}
 	.nav li {position: relative;}
 	.nav > li {border-top: 1px solid #808080;}
-	li li a {display: block; background: none; position: relative; z-index:100; border-top: 1px solid #808080;}
+	.nav li li a {display: block; background: none; position: relative; z-index:100; border-top: 1px solid #808080;}
 	.nav li li li a {background: none; z-index:200; border-top: 1px solid #808080;}
 	ul.block-nav > li li{padding-left: 10px;}
-	    .active {display: block;}
+	    ul.block-nav .active {display: block;}
 	    .nav ul {display: block; width: 100%;}
 	   .nav > li.hover > ul , .nav li li.hover ul {position: static; overflow: hidden;}
 
 	a.toggleMenu{display: block;}
 	div.header-inner {min-height: 90px; font-size: 14px;}
-	.nav-header-left {position: absolute; top: 46px; z-index: 100; width: 100%; font-size: 16px;}
+	.nav-header-left {position: absolute; top: 46px; z-index: 10000; width: 100%; font-size: 16px;}
 	h1.logo-text {float: none;}
 	nav.nav-header-left > li {width: 100%; float: none;}
 	nav.nav-header-left > li > a {padding-top: 10px; padding-bottom: 10px;}
@@ -157,16 +161,66 @@
 	/* footer */
 	nav.footer-nav {width: 50%; height: 180px; padding-bottom: 20px; font-size: 14px;}
 	nav.footer-nav h4 {font-size: 18px;}
-
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	div.content-inner-slider {margin: 0 auto; float: none;}
+	.tabs .bx-wrapper .bx-next {right: 0;}
+	.tabs .bx-wrapper .bx-prev {left: 0;}
+	div.content-inner-desc {width: 100%; padding-top: 20px; float: none;}
+	div.content-inner-desc h2{text-align: center;}
+	.content-inner-desc h2 br{display: none;}
+	div.price-block {width: 202px; margin: 0 auto; padding: 0;}
+	ul.from-monblanck {width: 300px; margin: 0 auto;}
+	.tabs .ci-catalog {padding: 40px 0 75px 0;}
+	.tabs .ci-catalog li:last-child {margin-bottom: 80px;}
 
  
+}
+
+@media (min-width:100px) and (max-width:550px) { 
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	div.tabs {padding: 0 10px;}
+	ul.tabs__caption {height: 90px;}
+	ul.tabs__caption li {font-size: 16px;}
+	.content-inner-slider .bx-wrapper img {width: 90%; margin: 0 auto;}
+
 }
 
 
 
 
+@media (min-width:100px) and (max-width:500px) { 
+	.footer-inner nav.footer-nav{width: 100%; height: auto;float: none;}
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	.content-inner-slider .bx-wrapper img {width: 90%; margin: 0 auto;}
+
+}
+/*----------------------------------------------*/
 
 
+
+@media (min-width:100px) and (max-width:389px){ 
+	ul.ci-desc li {width: 100%;}
+	.ci-desc li > a > div > img {width: 60%;}
+/*-----------------------------------------------------------------------------------*/
+/*  CATALOG
+/*-----------------------------------------------------------------------------------*/
+	ul.ci-catalog li {width: 100%;}
+	div.catalog-block {min-height: 504px;}
+	.ci-catalog li:hover .catalog-block-a {bottom: -113px;}
+/*-----------------------------------------------------------------------------------*/
+/*  CARTOCHKA
+/*-----------------------------------------------------------------------------------*/
+	.content-inner-slider .bx-wrapper .bx-next {right: 0;}
+	.content-inner-slider .bx-wrapper .bx-prev {left: 0;}
+
+ 
+}
 
 
 
