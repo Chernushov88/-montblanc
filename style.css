@@ -293,7 +293,7 @@ li.nav-phone a{
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-bottom: 87px;
-	outline: 1px solid #00cf00;
+	outline: 0px solid #00cf00;
 }
 .content-inner h2{
 	padding: 3px 0 15px 0;
@@ -724,6 +724,11 @@ ul.tabs__caption li a{
 }
 #slider3{
 	width: 100%;
+}
+.bx-wrapper .ci-catalog li {
+    position: relative;
+    width: 24.6%;
+    padding-bottom: 50px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  FAVORITES
