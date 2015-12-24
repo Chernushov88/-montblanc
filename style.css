@@ -764,3 +764,143 @@ ul.tabs__caption li a{
 
     background-position:  46px 8px ;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  BASKET
+/*-----------------------------------------------------------------------------------*/
+.basket-block{
+    margin-top: -3px;
+	font-size: 14px;
+}
+.basket-price-title{
+	overflow: hidden;
+	width: 430px;
+	padding-bottom: 27px;
+	text-align: center;
+	float: right;
+}
+.basket-price-title li{
+	width: 105px;
+	margin-right: 50px;
+	float: left;
+}
+.basket-price-title li:last-child{
+	margin: 0;
+}
+/* ci-basket */
+.ci-basket{	
+	width: 100%;	
+}
+.ci-basket li{
+	overflow: hidden;
+	width: 100%;
+	    padding-bottom: 4px;
+}
+.ci-basket li:last-child{
+	margin: 0;
+}
+.ci-basket-left{
+	width: 547px;
+	float: left;
+}
+.ci-basket-left .delete {
+    margin-top: 3px;
+}
+.basket-img-block{
+	width: 245px;
+    padding: 0 0 0 45px;
+	float: left;
+}
+.basket-img-block img{
+    width: 200px;
+    height: 150px;
+ }
+.desc-artc{	
+	width: 230px;
+	line-height: 17px;	
+	float: right;
+}
+.desc-artc .artc{
+	padding: 9px 0 0 0;
+	text-align: left;
+	font-size: 14px;
+	color: #111;
+}
+.desc-artc span{
+	display: block;
+}
+.cib-desc{
+	font-size: 12px;
+}
+/* */
+.ci-basket-right{
+	width: 430px;
+	height: 100px;
+	float: right;
+}
+.ci-basket-right li{
+	width: 105px;
+    margin-right: 57px;
+	float: left;
+}
+.ci-basket-right li:last-child{
+	margin: 0;
+	text-align: right;
+}
+.ci-basket-right li > span{
+	display: block;
+}
+.cib-title{
+	text-align: center;
+	color: #767676;
+}
+.ci-basket-right .price{
+    letter-spacing: 0.7px;
+	font-size: 22px;
+}
+.ci-basket-right li:nth-child(2) .price{
+	text-align: center;
+}
+/* bascet-checkout */
+.bascet-checkout{
+	width: 245px;
+    margin-top: -36px;
+	text-transform: uppercase;
+    letter-spacing: 0.3px;
+	float: right;
+}
+.price-bascet{
+	overflow: hidden;	
+}
+.price-bascet span{
+	display: block;
+}
+.price-bascet span:first-child{
+    padding-top: 8px;
+	font-size: 12px;
+	float: left;
+}
+.price-bascet span:last-child{
+	font-size: 22px;
+	float: right;
+}
+.checkout{
+	display: block;
+    margin-top: 11px;
+    padding: 12px 0;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: #111;
+}
+.checkout:hover{
+	color: #000;
+	background: #DEDEDE;
+}
+
+
+
+
+
+
+
+

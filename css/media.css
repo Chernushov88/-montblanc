@@ -10,6 +10,16 @@
 @media (min-width:1180px) and (max-width:1279px){
 	div.catalog-block {min-height: 435px;}
 }
+@media (min-width:830px) and (max-width:1000px){
+/*-----------------------------------------------------------------------------------*/
+/*  BASKET
+/*-----------------------------------------------------------------------------------*/
+	ul.basket-price-title{width: 320px;}
+	ul.basket-price-title li {margin-right: 0;}
+	ul.ci-basket-left {width: 485px;}
+	ul.ci-basket-right {width: 320px;}
+	ul.ci-basket-right li {margin-right: 0;}
+}
 @media (min-width: 767px) { 
  .nav-header-left > li:hover > span{background: url(../images/header/nav-header-left-after-active.png) no-repeat;}
 }
@@ -58,6 +68,7 @@
 	ul.from-monblanck {width: 300px; margin: 0 auto;}
  	.tabs .bx-wrapper .bx-next {right: 0;}
 	.tabs .bx-wrapper .bx-prev {left: 0;}
+	div.bx-wrapper .ci-catalog li {width: 33%; min-height: 460px;}
 }
 
 @media (min-width:768px) and (max-width:783px) { 
@@ -65,11 +76,21 @@
 	.toggleMenu {display: none !important;}
 
 }
+@media (min-width:640px) and (max-width:829px){
+/*-----------------------------------------------------------------------------------*/
+/*  BASKET
+/*-----------------------------------------------------------------------------------*/
+	ul.basket-price-title{width: 40%;}
+	ul.basket-price-title li {width: 33%; margin-right: 0;}
+	ul.ci-basket-left {width: 60%;}
+	div.basket-img-block {margin: 0 auto; float: none;}
+	div.desc-artc {margin: 0 auto; float: none;}
 
 
-
-
-
+	ul.ci-basket-right {width: 40%;}
+	ul.ci-basket-right li {width: 33%; margin-right: 0;}
+	ul.ci-basket-right .price {font-size: 19px;}
+}
 @media (min-width:640px) and (max-width:767px){ 
 	ul.ci-desc li {width: 33%;}
 	.ci-desc li > a > div > img {width: 70%;}
@@ -88,8 +109,8 @@
 	nav.nav-header-right > li.nav-phone {padding-left: 0;}
 	div nav.nav-header-right > li {padding: 5px 0 10px 22px;}
 	div.header-inner {min-height: 55px;}
-
 }
+
 @media (min-width:390px) and (max-width:639px){ 
 	ul.ci-desc li {width: 50%;}
 	.ci-desc li > a > div > img {width: 65%;}
@@ -106,9 +127,31 @@
 	.content-inner-slider .bx-wrapper .bx-prev {left: 0;}
 	.tabs .bx-wrapper .bx-next {right: 0;}
 	.tabs .bx-wrapper .bx-prev {left: 0;}
-
 }
+@media (min-width:100px) and (max-width:639px){
+/*-----------------------------------------------------------------------------------*/
+/*  BASKET
+/*-----------------------------------------------------------------------------------*/
+	div.content-inner-basket {padding: 0 2px 87px 2px;}
+	div.basket-block {font-size: 11px;}
+	ul.basket-price-title{width: 50%;}
+	ul.basket-price-title li {width: 33%; margin-right: 0;}
+	ul.ci-basket li {padding-bottom: 24px;}
+	ul.ci-basket-left {width: 50%;}
+	div.basket-img-block {width: 100%; margin: 0 auto; padding: 0; float: none;}
+	div.basket-img-block img {width: 67%; height: auto;}
+	div.desc-artc {margin: 0 auto; float: none;}
 
+
+	ul.ci-basket-right {width: 50%;}
+	ul.ci-basket-right li {width: 33%; margin-right: 0;}
+	ul.ci-basket-right .price {font-size: 13px;}
+
+	div.bascet-checkout {margin-top: 50px;}
+}
+@media (min-width:100px) and (max-width:540px){
+	div.bx-wrapper .ci-catalog li {width: 85% !important; min-height: 435px; float: none !important;}
+}
 
 @media (min-width:100px) and (max-width:767px){ 
 	.nav {display: none; background:#ccc;}
@@ -174,6 +217,7 @@
 	ul.from-monblanck {width: 300px; margin: 0 auto;}
 	.tabs .ci-catalog {padding: 40px 0 75px 0;}
 	.tabs .ci-catalog li:last-child {margin-bottom: 80px;}
+	div.bx-wrapper .ci-catalog li {width: 45%; min-height: 435px; float: left;}
 
  
 }
