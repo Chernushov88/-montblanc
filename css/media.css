@@ -10,6 +10,28 @@
 @media (min-width:1180px) and (max-width:1279px){
 	div.catalog-block {min-height: 435px;}
 }
+@media (min-width:640px) and (max-width:1024px){
+/*-----------------------------------------------------------------------------------*/
+/*  INDEX
+/*-----------------------------------------------------------------------------------*/
+	/* title-block */
+	ul.tb-left {width: 100%;}
+	ul.tb-left a {display: block; width: 40%; margin: 0 auto;}
+	div.tb-right {width: 100%;}
+	/* ci-slider4 */
+	div.ci-slider4 {padding-top: 0;}
+	div.cis-text {width: 100%; padding-bottom: 50px;}
+	div.cis-text ul {padding-top: 30px;}
+	div.slider4-block {width: 100%;}
+	/* last-news */
+	div.last-news-text {width: 100%; float: none;}
+	article.media {width: 50%; float: left;}
+	.media:nth-child(odd) {padding-right: 17px;}
+	.media:nth-child(even) {padding-left: 17px;}
+	.media-img {width: 20%;}
+	div.media-text {width: 75%;}
+	div.last-news-img {width: 100%; padding: 50px 0px 0 0px;}
+}
 @media (min-width:830px) and (max-width:1000px){
 /*-----------------------------------------------------------------------------------*/
 /*  BASKET
@@ -128,30 +150,6 @@
 	.tabs .bx-wrapper .bx-next {right: 0;}
 	.tabs .bx-wrapper .bx-prev {left: 0;}
 }
-@media (min-width:100px) and (max-width:639px){
-/*-----------------------------------------------------------------------------------*/
-/*  BASKET
-/*-----------------------------------------------------------------------------------*/
-	div.content-inner-basket {padding: 0 2px 87px 2px;}
-	div.basket-block {font-size: 11px;}
-	ul.basket-price-title{width: 50%;}
-	ul.basket-price-title li {width: 33%; margin-right: 0;}
-	ul.ci-basket li {padding-bottom: 24px;}
-	ul.ci-basket-left {width: 50%;}
-	div.basket-img-block {width: 100%; margin: 0 auto; padding: 0; float: none;}
-	div.basket-img-block img {width: 67%; height: auto;}
-	div.desc-artc {margin: 0 auto; float: none;}
-
-
-	ul.ci-basket-right {width: 50%;}
-	ul.ci-basket-right li {width: 33%; margin-right: 0;}
-	ul.ci-basket-right .price {font-size: 13px;}
-
-	div.bascet-checkout {margin-top: 50px;}
-}
-@media (min-width:100px) and (max-width:540px){
-	div.bx-wrapper .ci-catalog li {width: 85% !important; min-height: 435px; float: none !important;}
-}
 
 @media (min-width:100px) and (max-width:767px){ 
 	.nav {display: none; background:#ccc;}
@@ -166,7 +164,7 @@
 	   .nav > li.hover > ul , .nav li li.hover ul {position: static; overflow: hidden;}
 
 	a.toggleMenu{display: block;}
-	div.header-inner {min-height: 90px; font-size: 14px;}
+	div.header-inner {font-size: 14px;}
 	.nav-header-left {position: absolute; top: 46px; z-index: 10000; width: 100%; font-size: 16px;}
 	h1.logo-text {float: none;}
 	nav.nav-header-left > li {width: 100%; float: none;}
@@ -192,6 +190,7 @@
 	nav.nav-header-right > li.nav-phone a {padding: 5px 6px 0 24px;}
 	.nav-header-right > li > a > span {display: none;}
 	.block-nav {position: absolute; left: -9999px; display: block !important;}
+	ul.first-block-nav > li > a {font-family: 'Open Sans', sans-serif; font-size: 16px; color: #fff;}
 
 	/* page-title-map */
 	div.page-title-map {padding-left: 10px; font-size: 14px;}
@@ -221,6 +220,51 @@
 
  
 }
+@media (min-width:100px) and (max-width:639px){
+/*-----------------------------------------------------------------------------------*/
+/*  BASKET
+/*-----------------------------------------------------------------------------------*/
+	div.content-inner-basket {padding: 0 2px 87px 2px;}
+	div.basket-block {font-size: 11px;}
+	ul.basket-price-title{width: 50%;}
+	ul.basket-price-title li {width: 33%; margin-right: 0;}
+	ul.ci-basket li {padding-bottom: 24px;}
+	ul.ci-basket-left {width: 50%;}
+	div.basket-img-block {width: 100%; margin: 0 auto; padding: 0; float: none;}
+	div.basket-img-block img {width: 67%; height: auto;}
+	div.desc-artc {margin: 0 auto; float: none;}
+
+
+	ul.ci-basket-right {width: 50%;}
+	ul.ci-basket-right li {width: 33%; margin-right: 0;}
+	ul.ci-basket-right .price {font-size: 13px;}
+
+	div.bascet-checkout {margin-top: 50px;}
+/*-----------------------------------------------------------------------------------*/
+/*  INDEX
+/*-----------------------------------------------------------------------------------*/
+	/* title-block */
+	ul.tb-left {width: 100%;}
+	ul.tb-left a {display: block; width: 40%; margin: 0 auto;}
+	div.tb-right {width: 100%;}
+	/* ci-slider4 */
+	div.ci-slider4 {padding-top: 0;}
+	div.cis-text {width: 100%; padding-bottom: 50px;}
+	div.cis-text ul {padding-top: 30px;}
+	div.slider4-block {width: 100%;}
+	/* last-news */
+	div.last-news-text {width: 100%; float: none;}
+	article.media {width: 100%;}
+	.media-img {width: 20%;}
+	div.media-text {width: 75%;}
+	div.last-news-img {width: 100%; padding: 50px 0px 0 0px;}
+	div.last-news-img li {width: 50%;}
+	div.last-news-img li:last-child {display: none;}
+
+}
+@media (min-width:100px) and (max-width:540px){
+	div.bx-wrapper .ci-catalog li {width: 85% !important; min-height: 435px; float: none !important;}
+}
 
 @media (min-width:100px) and (max-width:550px) { 
 /*-----------------------------------------------------------------------------------*/
@@ -237,6 +281,7 @@
 
 
 @media (min-width:100px) and (max-width:500px) { 
+	.form-search {display: none;}
 	.footer-inner nav.footer-nav{width: 100%; height: auto;float: none;}
 /*-----------------------------------------------------------------------------------*/
 /*  CARTOCHKA
@@ -262,8 +307,11 @@
 /*-----------------------------------------------------------------------------------*/
 	.content-inner-slider .bx-wrapper .bx-next {right: 0;}
 	.content-inner-slider .bx-wrapper .bx-prev {left: 0;}
-
- 
+/*-----------------------------------------------------------------------------------*/
+/*  INDEX
+/*-----------------------------------------------------------------------------------*/
+	div.cis-text ul li {width: 44%;}
+ 	
 }
 
 
