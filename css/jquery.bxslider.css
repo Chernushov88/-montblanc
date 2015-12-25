@@ -12,6 +12,7 @@
 ===================================*/
 .bx-wrapper {
   position: relative;
+  min-height: 1px;
   margin: 0 auto;
   padding: 0;
   *zoom: 1;
@@ -40,6 +41,7 @@ ul.bxslider {
   list-style: none;
 }
 .bx-viewport {
+  min-height: 0px;
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);  
 }

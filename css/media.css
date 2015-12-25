@@ -206,6 +206,7 @@
 /*-----------------------------------------------------------------------------------*/
 /*  CARTOCHKA
 /*-----------------------------------------------------------------------------------*/
+	div.bx-wrapper {min-height: 500px}
 	div.content-inner-slider {margin: 0 auto; float: none;}
 	.tabs .bx-wrapper .bx-next {right: 0;}
 	.tabs .bx-wrapper .bx-prev {left: 0;}
@@ -263,7 +264,8 @@
 
 }
 @media (min-width:100px) and (max-width:540px){
-	div.bx-wrapper .ci-catalog li {width: 85% !important; min-height: 435px; float: none !important;}
+	div.bx-wrapper .ci-catalog li {width: 85% !important; min-height: 390px; float: none !important;}
+	.select-block > ul > li {width: 50%;}
 }
 
 @media (min-width:100px) and (max-width:550px) { 
@@ -271,7 +273,7 @@
 /*  CARTOCHKA
 /*-----------------------------------------------------------------------------------*/
 	div.tabs {padding: 0 10px;}
-	ul.tabs__caption {height: 90px;}
+	.tabs  ul.tabs__caption {height: 90px;}
 	ul.tabs__caption li {font-size: 16px;}
 	.content-inner-slider .bx-wrapper img {width: 90%; margin: 0 auto;}
 
@@ -287,6 +289,9 @@
 /*  CARTOCHKA
 /*-----------------------------------------------------------------------------------*/
 	.content-inner-slider .bx-wrapper img {width: 90%; margin: 0 auto;}
+	a.slct, a.slct2, a.slct3, a.slct4 {width: 100%;}
+	ul.drop, ul.drop2, ul.drop3, ul.drop4 {width: 43%;}
+
 
 }
 /*----------------------------------------------*/

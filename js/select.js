@@ -168,3 +168,11 @@ $(document).ready(function(){
 		return false;
 	});	
 });
+
+$(document).mouseup(function (e) {
+    var container = $(".drop, .drop2, .drop3, .drop4, .drop5");
+if (container.has(e.target).length === 0){
+container.slideUp(150);
+$('.slct, .slct2, .slct3, .slct4, .slct5').removeClass('active');
+}
+});

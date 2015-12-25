@@ -129,8 +129,8 @@ header{
 	display: none;
 	position: absolute;
 	top: 37px;
-	left: -50px;	
-    padding: 0px 25px 30px 25px;	
+	left: -1px;	
+    padding: 0px 20px 30px 20px;
 	background: #fff;
 	border: 1px solid #cfcfcf;
     border-top: none;	
@@ -808,7 +808,7 @@ ul.tabs__caption li a{
 	float: left;
 }
 .ci-basket-left .delete {
-    margin-top: 3px;
+    margin-top: 0px;
 }
 .basket-img-block{
 	width: 245px;
